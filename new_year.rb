@@ -4,9 +4,11 @@ def min_bribes q
 	counter = 0
 
 	 for i in (q.size - 1).downto(0) 
-	 	p q[i]
+	 	if q[i] - (i + 1) >= 3
+	 		return "To Chaotic!"
+	 	end	
 	 end	
 
 end
 
-min_bribes [1, 2, 3, 4, 5, 6, 7]
+p min_bribes [5, 1, 2, 3, 7, 8, 6, 4]
