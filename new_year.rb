@@ -17,10 +17,10 @@ def min_bribes q
 	counter
 end
 
-p min_bribes [2, 5, 1, 3, 4]
+p min_bribes [2, 5, 1, 3, 4] # Too Chaotic!
 
-p min_bribes [1, 2, 5, 3, 7, 8, 6, 4]
+p min_bribes [1, 2, 5, 3, 7, 8, 6, 4] # 7
 
-p min_bribes [5, 1, 2, 3, 7, 8, 6, 4]
+p min_bribes [5, 1, 2, 3, 7, 8, 6, 4] # Too Chaotic!
 
-p min_bribes [1, 2, 5, 3, 4, 7, 8, 6]
+p min_bribes [1, 2, 5, 3, 4, 7, 8, 6] # 4
